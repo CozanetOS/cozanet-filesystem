@@ -1,0 +1,27 @@
+{
+  "name": "cozanet-filesystem",
+  "version": "1.0.0",
+  "description": "Cross-platform filesystem operations, indexing & backup manager",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "chokidar": "^3.6.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "pino": "^9.0.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/archiver": "^6.0.2",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.11.0",
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.3.3"
+  },
+  "type": "module"
+}
